@@ -1,0 +1,23 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "FriendFinder application for the U of R coding bootcamp.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wynnblevins/FriendFinder.git"
+  },
+  "keywords": [
+    "FriendFinder"
+  ],
+  "author": "Wynn Blevins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wynnblevins/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/wynnblevins/FriendFinder#readme"
+}
