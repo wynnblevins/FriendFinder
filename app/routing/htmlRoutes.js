@@ -2,8 +2,17 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
 
-var app = express();
+module.exports = function (app) {
+    app.get('/survey', function (req, res) {
+        res.sendFile(path.join(__dirname, "../public/survey.html"));
+    });
+    
+    app.get('/home', function (req, res) {
+        res.sendFile(path.join(__dirname, "../public/home.html"));
+    });
 
-app.get('/survey', function (req, res) {
-    res.send('inside of /survey endpoint');
-});
+    // default route
+    app.get('/', function (req, res) {
+        res.sendFile(path.join(__dirname, "../public/home.html"));
+    });
+};
