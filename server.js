@@ -12,4 +12,4 @@ app.use(bodyParser.json());
 require('./app/routing/htmlRoutes.js')(app);
 require('./app/routing/apiRoutes.js')(app);
 
-app.listen(3000, () => console.log(`Example app listening on port ${PORT}`));
+app.listen(3000, () => console.log(`Friend Finder app listening on port ${PORT}`));
