@@ -15,3 +15,4 @@ Assuming all prerequisites as detailed above are completed, the developer can ru
 ```
 npm start
 ```
+The application can now be viewed by opening a browser and navigating to [localhost:3000](http://localhost:3000).
