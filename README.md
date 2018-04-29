@@ -6,8 +6,12 @@ The friend finder application can be viewed live on heroku at the following [her
 
 ## Prerequisites to Running Locally
 In order to run the application locally, the developer will need to have node installed on their computer and will need to run the following from the root directory of the project.
-    npm install 
+```
+npm install
+``` 
 
 ## Running Locally
 Assuming all prerequisites as detailed above are completed, the developer can run the application locally by changing into the project's root and running
-    npm start
+```
+npm start
+```
